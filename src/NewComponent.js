@@ -8,4 +8,13 @@ function NewComponent() {
   )
 }
 
-export default NewComponent
+function NewComponent2(){
+    return(
+        <div>
+            <h1>component 2</h1>
+        </div>
+    )
+}
+
+
+export {NewComponent, NewComponent2}
